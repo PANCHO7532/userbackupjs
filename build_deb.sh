@@ -45,6 +45,6 @@ sudo chown -R root:0 ./$P7BUILD_FLD
 echo "[INFO] - Building .deb package..."
 dpkg-deb --build ./$P7BUILD_FLD ./$P7BUILD_OUTPUTDIR/$P7BUILD_PROJECT_NAME.deb
 echo "[INFO] - Cleaning up..."
-rm -rf ./debstage
+sudo rm -rf ./debstage
 echo "[INFO] - Done!"
 exit 0
