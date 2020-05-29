@@ -1,0 +1,13 @@
+#!/bin/sh
+# Uninstall script for userbackupJS
+
+set -e
+echo "[INFO] - Removing symlinks and related directories..."
+if [ -L /usr/local/bin/userbackupjs ]; then
+    unlink /usr/local/bin/userbackupjs > /dev/null
+fi
+if [ -d /usr/lib/userbackupjs ]; then
+    rm -rf /usr/lib/userbackupjs > /dev/null
+fi
+echo "[INFO] - Done!"
+exit 0

@@ -1,0 +1,12 @@
+userbackupjs (3.5.1-4) unstable; urgency=low
+
+  * Added changelog
+  * Added copyright
+  * Added functions to allow load custom /etc/passwd and /etc/shadow via cvar
+  * Fixed Lintian Errors in postinst and postrm scripts
+  * Fixed Lintian Permissions in main directories
+  * Fixed many Lintian Warnings so hopefully the output will be clean
+  * Cleaned a bit of code
+
+ -- P7COMuncations LLC <pancho7532@p7com.net>  Fri, 22 May 2020 23:48:43 +0300
+ 

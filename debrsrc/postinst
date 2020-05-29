@@ -1,0 +1,10 @@
+#!/bin/sh
+# Postinstall script for userbackupJS
+
+set -e
+echo "[INFO] - Final setup in progress..."
+ln -s /usr/lib/userbackupjs/launcher.sh /usr/local/bin/userbackupjs > /dev/null
+chmod +x /usr/lib/userbackupjs/launcher.sh > /dev/null
+chmod +x /usr/lib/userbackupjs/userBackup_main.js > /dev/null
+echo "[INFO] - Done!"
+exit 0

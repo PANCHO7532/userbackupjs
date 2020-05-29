@@ -1,0 +1,21 @@
+Source: userbackupjs
+Package: userbackupjs
+Version: 3.5.1-4
+Maintainer: P7COMunications LLC <pancho7532@p7com.net>
+Homepage: https://github.com/PANCHO7532/userbackupjs
+Section: javascript
+Priority: optional
+Architecture: all
+Depends: nodejs (>= 5.0.0)
+Installed-Size: 52
+Description: Simple user-backup utility made with Javascript
+ Node.JS is required to run this program!
+ .
+ Features:
+  * CLI User Backup
+  * CLI User Restore
+  * Data stored in one JSON file format
+  * Mostly customizable options for your backup
+ .
+ Please report any bugs to the specified homepage or to:
+ https://github.com/PANCHO7532/userbackupjs/issues
