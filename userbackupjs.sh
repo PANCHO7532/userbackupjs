@@ -8,7 +8,7 @@ if [ -f "/usr/bin/node" ]; then
     if [ -f "./userBackup_main.js" ]; then
         /usr/bin/node ./userBackup_main.js "$@"
         exit 0
-    elif [ -f "/usr/lib/userbackupjs/userBackup_main.js"]; then
+    elif [ -f "/usr/lib/userbackupjs/userBackup_main.js" ]; then
         /usr/bin/node /usr/lib/userbackupjs/userBackup_main.js "$@"
         exit 0
     else
@@ -19,7 +19,7 @@ elif [ -f "/usr/local/bin/node" ]; then
     if [ -f "./userBackup_main.js" ]; then
         /usr/local/bin/node ./userBackup_main.js "$@"
         exit 0
-    elif [ -f "/usr/lib/userbackupjs/userBackup_main.js"]; then
+    elif [ -f "/usr/lib/userbackupjs/userBackup_main.js" ]; then
         /usr/local/bin/node /usr/lib/userbackupjs/userBackup_main.js "$@"
         exit 0
     else
