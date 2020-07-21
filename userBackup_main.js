@@ -1,6 +1,6 @@
 #!/usr/bin/node
 /*
-* userbackupJS v3.5.1-4
+* userbackupJS v3.5.1-5
 * Copyright (c) P7COMunications LLC 2020
 * Check the LICENSE file on https://github.com/PANCHO7532/userbackupjs for more info about licensing and usage.
 */
@@ -196,7 +196,7 @@ if(showHelp) {
 }
 if(showVersion && !showHelp) {
     var versionMessage = [
-        "userbackupjs for Linux v3.5.1-4",
+        "userbackupjs for Linux v3.5.1-5",
         "Copyright (c) 2020 P7COMunications LLC",
         "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.",
         "This is free software: you are free to change it's behaviour and redistribute",
