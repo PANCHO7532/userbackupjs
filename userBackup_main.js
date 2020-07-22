@@ -320,7 +320,7 @@ for(c = 0; c < storage1.length; c++) {
         }
         if(!noComments) {
             if(tmps1[4] != "") {
-                tmpComments = " -c " + tmps1[4];
+                tmpComments = " -c \"" + tmps1[4] + "\"";
             }
         }
         if(overrideUID) {
