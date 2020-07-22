@@ -7,7 +7,7 @@
 
 1) Make executable the file deb_build.sh
 2) Run `./deb_build.sh` to build an installable .deb package for your system
-3) Install the .deb file located in the build directory, in the same folder where it is the script.
+3) Install the .deb file located in the build directory, in the same folder where it is the script, by double clicking or executing `dpkg -i (package name).deb`.
 
 ## Installation (using the pre-built .deb file)
 
